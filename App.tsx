@@ -76,7 +76,7 @@ const App: React.FC = () => {
               onClick={startGame}
               className="px-12 py-4 bg-[#f39c12] hover:bg-orange-400 text-[#0b2135] font-bungee text-2xl md:text-3xl rounded-full transition-transform active:scale-95 shadow-2xl border-b-8 border-orange-700"
             >
-              START CHAOS
+              START
             </button>
           </div>
         )}
