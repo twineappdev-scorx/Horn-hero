@@ -10,7 +10,7 @@ const GameHUD: React.FC<GameHUDProps> = ({ stats }) => {
   return (
     <div className="absolute top-0 left-0 w-full p-6 flex justify-between items-start z-30 pointer-events-none">
       <div className="bg-[#0b2135]/80 backdrop-blur-md p-4 rounded-2xl border border-[#20c997]/20 shadow-xl">
-        <p className="text-[10px] font-bold uppercase tracking-widest text-[#20c997]/60">Chaos Score</p>
+        <p className="text-[10px] font-bold uppercase tracking-widest text-[#20c997]/60">Bandit Score</p>
         <p className="text-3xl font-bungee text-white">{stats.score.toLocaleString()}</p>
       </div>
 
