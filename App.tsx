@@ -159,7 +159,7 @@ const App: React.FC = () => {
                   onClick={() => setGameState(GameState.START)}
                   className="text-gray-400 hover:text-[#0b2135] text-xs font-bold uppercase tracking-widest pt-4"
                 >
-                  Return to chaos
+                  Return to Home
                 </button>
               </div>
             </div>
