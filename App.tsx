@@ -62,7 +62,7 @@ const App: React.FC = () => {
       <div className="flex-1 flex flex-col items-center justify-center relative overflow-hidden">
         {gameState === GameState.START && (
           <div className="z-20 text-center animate-in fade-in zoom-in duration-500 px-4">
-            <h1 className="text-5xl md:text-8xl font-bungee mb-4 text-[#f39c12] drop-shadow-xl tracking-tighter leading-none">BRISBANE BANDIT</h1>
+            <h1 className="text-5xl md:text-8xl font-bungee mb-4 text-[#f39c12] drop-shadow-xl tracking-tighter leading-none">TRAIN VS TENNIS</h1>
             <p className="text-lg md:text-2xl mb-8 font-bold text-[#20c997] uppercase tracking-widest">Tennis's Worst Nightmare.</p>
             <div className="bg-white/5 p-6 rounded-2xl backdrop-blur-md border border-white/10 mb-8 max-w-md mx-auto">
               <h2 className="text-lg font-bold mb-2 text-[#f39c12]">Your Goal</h2>
